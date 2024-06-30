@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.big-red-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 40px;
+    font-size: 2em;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+    height: 100px;
+}
+
+.big-red-button:active {
+    background-color: darkred;
+}
