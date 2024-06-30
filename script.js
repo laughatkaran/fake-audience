@@ -2,9 +2,11 @@ let currentAudio = null;
 
 function playRandomAudio() {
     const audioFiles = [
-        'audio/01-medium-laugh.wav',
-        'audio/02-small-laugh.wav',
-        'audio/03-fake-laugh.wav'
+        'audio/aww.wav',
+        'audio/laugh-big.wav',
+        'audio/laugh-medium.wav',
+        'audio/laugh-small.wav',
+        'audio/silence.wav'
     ];
     
     const randomIndex = Math.floor(Math.random() * audioFiles.length);
